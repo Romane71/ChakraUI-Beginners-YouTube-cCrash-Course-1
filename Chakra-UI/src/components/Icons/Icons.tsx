@@ -20,9 +20,10 @@ export function CheckIcon() {
 export function MoneyBackGuaranteeIcon() {
   return (
     <svg
+      display="bottom"
       width="46"
       height="46"
-      viewBox="0 0 46 46"
+      viewBox="0 0 40 42"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >
@@ -64,7 +65,13 @@ export function HassleFreeIcon() {
 
 export function MonthlySubscriptionIcon() {
   return (
-    <svg width="40" height="42" viewBox="0 0 40 42" fill="none" xmlns="">
+    <svg
+      width="40"
+      height="42"
+      viewBox="0 0 40 42"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
       <path
         d="M30.6314 33.7154L33.2841 36.2009C36.3532 32.9245 36.6587 32.4773 38.6114 28.4518L35.3405 26.8645C33.5532 30.5464 33.4314 30.7245 30.6314 33.7154Z"
         fill="#D1D5DB"

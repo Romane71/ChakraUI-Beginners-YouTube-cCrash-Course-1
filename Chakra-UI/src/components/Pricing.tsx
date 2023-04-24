@@ -32,6 +32,7 @@ export function Pricing() {
       borderRadius="12px"
       boxShadow="0px 20px 25px -5px rgba(0, 0, 0, 0.1), 0px 10px 10px -5px rgba(0, 0, 0, 0.04)"
       textAlign="center"
+      as="section"
     >
       <Flex>
         <Box bg="#F0EAFB" p="60px">
@@ -44,11 +45,11 @@ export function Pricing() {
           <Text color="#171923" fontSize="18px" fontWeight="500" mt="8px">
             billed just one
           </Text>
-          <Button colorScheme="purple" size="lg" w="282px" mt="24px">
+          <Button colorScheme="blue" size="lg" w="282px" mt="24px">
             Get Started
           </Button>
         </Box>
-        <Box p="60px" fontSize="18px" bg="white">
+        <Box p="60px" fontSize="18px" bg="#90CDF4">
           <Text textAlign="left">
             Access these features when you get this pricing package for your
             business
