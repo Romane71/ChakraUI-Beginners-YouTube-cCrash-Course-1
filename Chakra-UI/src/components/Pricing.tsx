@@ -10,7 +10,7 @@ import {
   Icon,
   Stack,
 } from "@chakra-ui/react";
-import { CheckIcon } from "../Icons/Icon";
+import { CheckIcon } from "./Icons/Icons";
 
 export const ListItem = (props: StackProps) => {
   const { children, ...rest } = props;
